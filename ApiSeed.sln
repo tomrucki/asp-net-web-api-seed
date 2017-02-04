@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiSeed.Api", "ApiSeed.Api\ApiSeed.Api.csproj", "{54ADAEA7-126C-4B71-BAC3-89F2D6ADEFAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSAKeyGenerator", "RSAKeyGenerator\RSAKeyGenerator.csproj", "{CF62A821-6FFA-458C-A12B-77BA3C7590AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiSeed.Models", "ApiSeed.Models\ApiSeed.Models.csproj", "{E5F13D4E-6398-4E8F-90A9-340347B63AA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiSeed.Services", "ApiSeed.Services\ApiSeed.Services.csproj", "{5F220CE3-D994-4B96-A0B5-AA48DB183A52}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54ADAEA7-126C-4B71-BAC3-89F2D6ADEFAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54ADAEA7-126C-4B71-BAC3-89F2D6ADEFAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54ADAEA7-126C-4B71-BAC3-89F2D6ADEFAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54ADAEA7-126C-4B71-BAC3-89F2D6ADEFAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF62A821-6FFA-458C-A12B-77BA3C7590AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF62A821-6FFA-458C-A12B-77BA3C7590AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF62A821-6FFA-458C-A12B-77BA3C7590AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF62A821-6FFA-458C-A12B-77BA3C7590AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5F13D4E-6398-4E8F-90A9-340347B63AA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5F13D4E-6398-4E8F-90A9-340347B63AA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5F13D4E-6398-4E8F-90A9-340347B63AA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5F13D4E-6398-4E8F-90A9-340347B63AA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F220CE3-D994-4B96-A0B5-AA48DB183A52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F220CE3-D994-4B96-A0B5-AA48DB183A52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F220CE3-D994-4B96-A0B5-AA48DB183A52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F220CE3-D994-4B96-A0B5-AA48DB183A52}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
