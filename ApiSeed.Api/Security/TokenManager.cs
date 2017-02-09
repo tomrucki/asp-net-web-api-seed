@@ -54,7 +54,7 @@ namespace ApiSeed.Api.Security
         /// </summary>
         /// <param name="tokenString"></param>
         /// <returns></returns>
-        /// <exception cref=""
+        /// <exception cref="InvalidTokenFormatException">Invalid token format</exception>
         public IPrincipal ParseToken(string tokenString)
         {
             JwtSecurityToken token;
